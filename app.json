@@ -21,10 +21,26 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.germinglin.EXPLORER"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "cameraPermission": "The app needs access to your camera in order to take photos of your favorite places."
+          }
+        ]
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "881aa267-7e23-4e64-bff4-1f70b9d79b12"
+      }
     }
   }
 }
